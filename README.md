@@ -124,6 +124,8 @@ Example:
 ![Pneumonia ROC Curve](outputs/plots/roc_curves/Pneumonia.png)
 
 # Project Structure
+
+```text
 Chest_XRay_Project/
 
 │
@@ -164,9 +166,7 @@ Chest_XRay_Project/
 │
 ├── requirements.txt
 └── README.md
-
-
----
+```
 ````markdown
 ## Installation
 
