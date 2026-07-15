@@ -1,0 +1,5 @@
+Metric,Score
+F1 Score (Macro),0.2631346428
+Precision (Macro),0.1878768478
+Recall (Macro),0.4819918035
+AUROC (Macro),0.7368687510
