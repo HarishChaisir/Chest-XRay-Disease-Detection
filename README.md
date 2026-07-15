@@ -93,9 +93,7 @@ This project uses the **NIH ChestX-ray14 dataset** for training and evaluation.
 
 The dataset contains over **100,000 frontal-view chest X-ray images** with labels for **14 thoracic disease categories**. Since this dataset is large and has specific usage terms, it is **not included in this repository**.
 
-Dataset source:
-
-https://www.kaggle.com/datasets/nih-chest-xrays/data
+Dataset source: https://www.kaggle.com/datasets/nih-chest-xrays/data
 
 ### Dataset Preparation
 
