@@ -16,6 +16,15 @@ The project includes:
 
 ![Application Screenshot](assets/app_screenshot.png)
 
+
+## Live Demo
+
+Streamlit App:
+<https://chest-xray-disease-detection-akhhyawqungdt53tstlnij.streamlit.app/>
+
+GitHub Repository:
+<https://github.com/HarishChaisir/Chest-XRay-Disease-Detectionk>
+
 # Overview
 
 Chest X-ray interpretation is a challenging medical imaging task requiring expertise and experience. This project explores the use of deep learning for assisting chest X-ray analysis by predicting possible diseases from radiographic images.
