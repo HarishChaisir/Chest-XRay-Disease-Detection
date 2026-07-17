@@ -180,7 +180,7 @@ Chest_XRay_Project/
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/HarishChaisir/Chest-XRay-Disease-Detection
 
 cd Chest_XRay_Project
 ````
