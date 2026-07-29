@@ -38,12 +38,9 @@ torch.load(
 )
 
 model.to(device)
-print("Model created")
+
 
 model.eval()
-
-
-print("Model ready")
 
 
 
