@@ -141,7 +141,7 @@ if image_source is not None:
     st.divider()
 
 
-    if st.button("🔍 Predict"):
+    if st.button("Predict"):
 
         with st.spinner("Analyzing X-ray..."):
 
