@@ -19,7 +19,6 @@ from pathlib import Path
 
 st.set_page_config(
     page_title="Chest X-ray AI",
-    page_icon="🩺",
     layout="wide"
 )
 
@@ -29,7 +28,7 @@ st.set_page_config(
 # Title
 # ---------------------------------
 
-st.title("🩺 AI-Based Chest X-ray Disease Classification")
+st.title("AI-Based Chest X-ray Disease Classification")
 
 st.write(
     """
@@ -142,7 +141,7 @@ if image_source is not None:
     st.divider()
 
 
-    if st.button("🔍 Predict"):
+    if st.button("Predict"):
 
         with st.spinner("Analyzing X-ray..."):
 

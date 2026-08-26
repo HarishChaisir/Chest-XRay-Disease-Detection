@@ -5,18 +5,12 @@ from PIL import Image
 import numpy as np
 import json
 
-# -----------------------------
-# Device
-# -----------------------------
 
 device = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
 )
 
 
-# -----------------------------
-# Load disease names
-# -----------------------------
 
 from pathlib import Path
 import json
@@ -31,9 +25,6 @@ with open(DISEASE_MAPPING_PATH) as f:
 disease_names = list(disease_mapping.values())
 
 
-# -----------------------------
-# Load model
-# -----------------------------
 
 MODEL_PATH = BASE_DIR / "models" / "best_model.pth"
 
@@ -47,15 +38,10 @@ torch.load(
 )
 
 model.to(device)
-print("Model created")
+
 
 model.eval()
 
-
-print("Model ready")
-# -----------------------------
-# Load thresholds
-# -----------------------------
 
 
 THRESHOLD_PATH = BASE_DIR / "models" / "best_threshold.json"
@@ -67,9 +53,7 @@ best_thresholds = np.array(
     list(data.values())
 )
 
-# -----------------------------
-# Prediction function
-# -----------------------------
+
 
 def predict(image_source):
 
