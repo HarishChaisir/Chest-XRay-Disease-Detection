@@ -23,7 +23,7 @@ Streamlit App:
 <https://chest-xray-disease-detection-akhhyawqungdt53tstlnij.streamlit.app/>
 
 GitHub Repository:
-<https://github.com/HarishChaisir/Chest-XRay-Disease-Detectionk>
+<https://github.com/HarishChaisir/Chest-XRay-Disease-Detection>
 
 # Overview
 
